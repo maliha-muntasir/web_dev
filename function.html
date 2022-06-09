@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+  
+</head>
+<body>
+    <script>
+        function hello(name1,name2){
+        document.write("Hello "+ name1+" "+name2);
+       
+        }
+       
+
+        function hi(a,b){
+        document.write(a+b);
+        
+        }
+       
+
+        hello("maliha","muntasir");
+        document.write("<br>")
+        hi(10,20);
+        function fullname(fname,lname)
+        {
+
+            var a=fname + " "+lname;
+            return a;
+        }
+        document.write("<br>");
+        var fn=fullname("Sumaiya","Mostari");
+        document.write(fn);
+
+
+        function sum(math,sc,eng)
+        {
+            var s=math + eng + sc;
+            return s;
+        }
+
+        function percentage(tt){
+            var per=(tt/300)*100;
+            document.write(per);
+        }
+
+        var total=sum(80,80,80);
+        percentage(total);
+
+
+
+    </script>
+    <button onclick="hello()">Click Me</button>
+</body>
+</html>
